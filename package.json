@@ -1,12 +1,8 @@
 {
-  "name": "chrome-extension-boilerplate-react-vite",
+  "name": "Cinema-Experience",
   "version": "0.0.1",
-  "description": "chrome extension boilerplate",
+  "description": "Enhance your cinematic experience",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Jonghakseo/chrome-extension-boilerplate-react-vite.git"
-  },
   "scripts": {
     "build": "tsc --noEmit && vite build",
     "build:watch": "cross-env __DEV__=true vite build --watch",
@@ -22,15 +18,15 @@
   },
   "devDependencies": {
     "@rollup/plugin-typescript": "^8.5.0",
-    "@testing-library/react": "13.4.0",
-    "@types/chrome": "0.0.224",
+    "@testing-library/react": "14.0.0",
+    "@types/chrome": "0.0.237",
     "@types/jest": "29.0.3",
-    "@types/node": "18.15.11",
+    "@types/node": "20.2.5",
     "@types/react": "18.0.21",
     "@types/react-dom": "18.2.4",
     "@types/ws": "^8.5.4",
     "@typescript-eslint/eslint-plugin": "5.56.0",
-    "@typescript-eslint/parser": "5.38.1",
+    "@typescript-eslint/parser": "5.59.8",
     "@vitejs/plugin-react": "2.2.0",
     "chokidar": "^3.5.3",
     "cross-env": "^7.0.3",
@@ -45,7 +41,7 @@
     "prettier": "2.8.8",
     "rollup": "2.79.1",
     "sass": "1.62.1",
-    "ts-jest": "29.0.2",
+    "ts-jest": "29.1.0",
     "ts-loader": "9.4.2",
     "typescript": "4.8.3",
     "vite": "3.1.3",

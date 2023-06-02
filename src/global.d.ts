@@ -1,5 +1,14 @@
 import Chrome from "chrome";
 
+declare global {
+  interface Window {
+    cinemaExtension?: {
+      container: HTMLElement;
+      after: HTMLElement | Element | null;
+    };
+  }
+}
+
 declare namespace chrome {
   export default Chrome;
 }
